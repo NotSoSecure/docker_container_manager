@@ -4,23 +4,23 @@ This repository contains scripts for managing Docker containers via a client-ser
 
 ## Requirements
 
-    - Python 3
-    - Docker
-    - SSH key-based authentication for accessing the server
+- Python 3
+- Docker
+- SSH key-based authentication for accessing the server
 
 ## Getting Started
 
-    Clone this repository on the client machine, run the client.py script with appropriate command-line arguments to deploy the Docker container and user accounts.
+Clone this repository on the client machine, run the client.py script with appropriate command-line arguments to deploy the Docker container and user accounts.
 
 
 ## client.py
 
 The client.py script runs on the client machine and performs the following tasks:
 
-    1. Connects to the server over SSH.
-    2. Checks for the existence of the server.py script and clones this repository (if necessary).
-    3. Checks for the required Docker image and pulls it from Dockerhub (if necessary).
-    4. Runs the server.py script on the server with appropriate command-line arguments to set up the Docker container and user accounts.
+1. Connects to the server over SSH.
+2. Checks for the existence of the server.py script and clones this repository (if necessary).
+3. Checks for the required Docker image and pulls it from Dockerhub (if necessary).
+4. Runs the server.py script on the server with appropriate command-line arguments to set up the Docker container and user accounts.
 
 ## Usage
 
