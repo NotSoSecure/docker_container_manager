@@ -25,7 +25,7 @@ The client.py script runs on the client machine and performs the following tasks
 ## Usage
 
 ```
-python client.py [-h] -f FIRST -l LAST -e EXPIRY -n NAME -i IP -p PORT [-I IMAGE]
+python client.py [-h] -f FIRST -l LAST -e EXPIRY -n NAME -i IP -p PORT
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -37,6 +37,4 @@ optional arguments:
   -n NAME, --name NAME  Name of Docker container
   -i IP, --ip IP        IP of machine
   -p PORT, --port PORT  Port to expose container SSH on
-  -I IMAGE, --image IMAGE
-                        Docker image (default: notsosecure/rsh_kali:latest)
 ```
