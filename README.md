@@ -28,13 +28,11 @@ The client.py script runs on the client machine and performs the following tasks
 python client.py [-h] -f FIRST -l LAST -e EXPIRY -n NAME -i IP -p PORT
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -f FIRST, --first FIRST
-                        First user number (between 10-50)
-  -l LAST, --last LAST  Last user number (between 10-50)
-  -e EXPIRY, --expiry EXPIRY
-                        User account expiration date (YYYY-MM-DD)
-  -n NAME, --name NAME  Name of Docker container
-  -i IP, --ip IP        IP of machine
-  -p PORT, --port PORT  Port to expose container SSH on
+  -h, --help                 Show this help message and exit
+  -f FIRST, --first FIRST    First user number (between 10-50)
+  -l LAST, --last LAST       Last user number (between 10-50)
+  -e EXPIRY, --expiry        EXPIRY User account expiration date (YYYY-MM-DD)
+  -n NAME, --name NAME       Name of Docker container
+  -i IP, --ip IP             IP/domain name of machine
+  -p PORT, --port PORT       Port to expose container SSH on
 ```
